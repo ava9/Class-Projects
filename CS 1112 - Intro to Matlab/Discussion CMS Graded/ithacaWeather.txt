@@ -1,0 +1,16 @@
+//Ithaca
+//Monthly temperature and precipitation
+//Temp lows (columns 4-8), temp highs (columns 12-16), average precip (columns 20-24)
+//Units:  English
+      15      31    2.08
+      17      34    2.06
+      23      42    2.64
+      34      56    3.29
+      44      67    3.19
+      53      76    3.99
+      58      80    3.83
+      56      79    3.63
+      49      71    3.69
+     NaN      59     NaN
+      32      48    3.16
+      22      36    2.40

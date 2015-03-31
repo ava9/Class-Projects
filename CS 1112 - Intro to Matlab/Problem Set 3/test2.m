@@ -1,0 +1,1 @@
+sierpinskiTri(5)
