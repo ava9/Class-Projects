@@ -1,0 +1,115 @@
+br { clear:left }
+
+.menu {
+    width: 100%;
+    background-color: #B31B1B;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    float: left; 
+    text-decoration: none;
+    color: white; 
+    padding: 10.5px 11px;
+    background-color:  #B31B1B;
+}
+ 
+.menu a:visited {
+    color: white;
+}
+ 
+.menu a:hover{
+    color: white;
+    background-color: #41D941;
+}
+.menu li {
+    color: white;
+    background-color: #41D941;
+}
+.body{
+    background:#2B2B2B;
+}
+#about {
+   padding-top: 50px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+#about h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#about li{
+   line-height: 30px;
+   color: #EBEBEB;
+}
+.edu{
+  padding-left: 150px;
+}
+.eduPara{
+  padding-left: 150px;
+}
+#contact{
+  padding-left: 150px;
+}
+.address{
+  padding-left: 150px;
+}
+#about p {
+   line-height: 30px;
+   color: #EBEBEB;
+}
+#about a:visited{
+    color: white;
+}
+.download{
+  padding-left: 150px;
+}
+#about .profile-pic {
+   float: left;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+   padding-left: 10px;
+}
+#welcome{
+  color: white;
+  position: relative;
+  padding-left: 30px;
+  font-size: 50px;
+}
+#website{
+  color: white;
+  position: relative;
+  padding-left: 100px;
+  font-size: 50px;
+}
+#Hi{
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+#Hi a:visited{
+  color: white;
+}
+#networking{
+  padding-left: 20px;
+}
+
+.networkPara a{
+  color: white;
+}
+.body a{
+  color: white;
+}

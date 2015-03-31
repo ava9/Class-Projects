@@ -1,0 +1,27 @@
+ava9
+Agashe,Aditya Vinay
+
+Design Journey Map (3/3): 
+
+  -  Nicely done, I got a good sense of the direction of your website.  Your page and content divisions are good.
+
+HTML/CSS (2/2):
+
+  - Sufficient! There's not much to judge on currently, but your draft in your design journey map looks promising. 
+
+Deductions:
+
+  - None
+
+Notes:
+
+  - Please have a 'grademe' folder spelled exactly that way! 
+  - Be sure to change the font color on the nav bar (or the nav bar color).  They're the same right now so you can't actually read the navigation. Points will definitely be taken off in the final submission if you keep this.
+  - Make sure you look into spacing for your next assignment; your content is stacked in the top-left corner, which is unappealing.
+
+Final Comments:
+
+  - It's just the first milestone, so I know there's not much to comment on.  Looking forward to your future submission when you implement your planned design! 
+
+Grade: (5/5)
+

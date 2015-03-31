@@ -1,0 +1,54 @@
+.mobile-menu {
+	display: none;
+	font-size: 30px;
+}
+
+.mobile-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.mobile-menu ul li {
+	display: inline; 
+}
+
+.mobile-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 700px), (min-width: 700px) and (max-width: 1100px) {
+	.body-text {
+		width: 100%;
+	}
+	.content {
+		width: 80%;
+	}
+	
+	.footer-address, .footer-emailphone  {
+		padding: 5px;
+	}
+	
+	.left-img, .right-img {
+		display: block;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		width: 90%;
+	}
+
+	.left-quote, .right-quote {
+		text-align: center;
+	}
+	.menu {
+		float: none;
+		display: none;
+	}
+
+	.mobile-menu {
+		display: block;
+	}
+}

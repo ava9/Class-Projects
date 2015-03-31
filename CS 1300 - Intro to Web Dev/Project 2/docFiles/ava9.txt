@@ -1,0 +1,7 @@
+ava9, Aditya Vinay Agashe
+
+Design Journey Map (3/3): Good, well thought out but the actual execution of your redesign choices might still be a little lacking. You acknowledge the needs of your users but other than just including certain information, you haven't considered more complex design ideas such as "a bright, homely color scheme to attract the home oriented parent" or "larger use of images and effects for the modern student who may not wish to read large bodies of text".
+
+HTML/CSS (2/2): Everything validates and there are no broken links. Good draft so far but I hope further design considerations will be implemented. Some suggestions are to create a more organized grid layout and playing with different fonts. Your photo gallery is well done but I would advise that if you want to keep the brightening effect upon hovering on individual photos, make it so that you can click on it and enlargen the photo. Otherwise, the effect is a little deceiving in terms of intuitive user experience. Also, the photos do cause quite a bit of lag because they are each a couple of megabytes. A good practice is to have smaller versions of the image files for the thumbnails and only use the full resolution photo if you do end up implementing a picture enlargement feature.
+
+Overall (5/5): Good job thus far. I look forward to further improvements in future milestones.
