@@ -1,0 +1,1010 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+14
+1076
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+cpu
+# storage
+db|lab5.(1).cnf
+db|lab5.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+cpu.v
+592056f8dfc43c9ff2c1aff2ab3a5c80
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ
+}
+# macro_sequence
+
+# end
+# entity
+Decoder
+# storage
+db|lab5.(3).cnf
+db|lab5.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+decoder.v
+499c693c5d53dff99455c1302460ba4f
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+RTYPE
+1111
+PARAMETER_UNSIGNED_BIN
+DEF
+OTHER
+0000
+PARAMETER_UNSIGNED_BIN
+DEF
+BRANCH
+10
+PARAMETER_UNSIGNED_BIN
+DEF
+ADD
+000
+PARAMETER_UNSIGNED_BIN
+DEF
+SUB
+001
+PARAMETER_UNSIGNED_BIN
+DEF
+SRA
+010
+PARAMETER_UNSIGNED_BIN
+DEF
+SRL
+011
+PARAMETER_UNSIGNED_BIN
+DEF
+SLL
+100
+PARAMETER_UNSIGNED_BIN
+DEF
+AND
+101
+PARAMETER_UNSIGNED_BIN
+DEF
+OR
+110
+PARAMETER_UNSIGNED_BIN
+DEF
+LB
+0010
+PARAMETER_UNSIGNED_BIN
+DEF
+PSB
+0100
+PARAMETER_UNSIGNED_BIN
+DEF
+ADDI
+0101
+PARAMETER_UNSIGNED_BIN
+DEF
+ANDI
+0110
+PARAMETER_UNSIGNED_BIN
+DEF
+ORI
+0111
+PARAMETER_UNSIGNED_BIN
+DEF
+BEQ
+00
+PARAMETER_UNSIGNED_BIN
+DEF
+BNE
+01
+PARAMETER_UNSIGNED_BIN
+DEF
+BGEZ
+10
+PARAMETER_UNSIGNED_BIN
+DEF
+BLTZ
+11
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|Decoder:decoder
+}
+# macro_sequence
+
+# end
+# entity
+HaltLogic
+# storage
+db|lab5.(4).cnf
+db|lab5.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+haltlogic.v
+2e31d5b1d3e585cf48146654215940
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|HaltLogic:haltlogic
+}
+# macro_sequence
+
+# end
+# entity
+RegFile
+# storage
+db|lab5.(5).cnf
+db|lab5.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+regfile.v
+f3414f789775a9d9d033d1e137f2e5b0
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|RegFile:file
+}
+# macro_sequence
+
+# end
+# entity
+SignExtend
+# storage
+db|lab5.(6).cnf
+db|lab5.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+signextend.v
+5da95ffd0d062c59c538bdf24f5e433
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|SignExtend:extend
+}
+# macro_sequence
+
+# end
+# entity
+alu
+# storage
+db|lab5.(7).cnf
+db|lab5.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+alu.v
+282d22ecde56852b4f7277c6de264fc
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+ADD
+000
+PARAMETER_UNSIGNED_BIN
+DEF
+SUB
+001
+PARAMETER_UNSIGNED_BIN
+DEF
+SRA
+010
+PARAMETER_UNSIGNED_BIN
+DEF
+SRL
+011
+PARAMETER_UNSIGNED_BIN
+DEF
+SLL
+100
+PARAMETER_UNSIGNED_BIN
+DEF
+AND
+101
+PARAMETER_UNSIGNED_BIN
+DEF
+OR
+110
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu
+}
+# macro_sequence
+
+# end
+# entity
+control
+# storage
+db|lab5.(8).cnf
+db|lab5.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+control.v
+ee2f34bcd9a8d23d11e3cdcdcaa872fd
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+ADD
+000
+PARAMETER_UNSIGNED_BIN
+DEF
+SUB
+001
+PARAMETER_UNSIGNED_BIN
+DEF
+SRA
+010
+PARAMETER_UNSIGNED_BIN
+DEF
+SRL
+011
+PARAMETER_UNSIGNED_BIN
+DEF
+SLL
+100
+PARAMETER_UNSIGNED_BIN
+DEF
+AND
+101
+PARAMETER_UNSIGNED_BIN
+DEF
+OR
+110
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|control:freak
+}
+# macro_sequence
+
+# end
+# entity
+muxO
+# storage
+db|lab5.(9).cnf
+db|lab5.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+muxo.v
+9ef47ce164c5bbf1d3d2d83f5ba764a
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|muxO:muxO
+}
+# macro_sequence
+
+# end
+# entity
+logical
+# storage
+db|lab5.(10).cnf
+db|lab5.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+logical.v
+d77f2de3b8a2296e5c6fb0e74cfb173c
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|logical:paradox
+}
+# macro_sequence
+
+# end
+# entity
+shifter
+# storage
+db|lab5.(11).cnf
+db|lab5.(11).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+shifter.v
+a4b5c37dd4d3471ddfb16e40b15f82e0
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|shifter:iDontGiveAShift
+}
+# macro_sequence
+
+# end
+# entity
+muxB
+# storage
+db|lab5.(12).cnf
+db|lab5.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+muxb.v
+2245839f1d458f2b1f1c798556f833
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|muxB:muxB
+}
+# macro_sequence
+
+# end
+# entity
+muxCI
+# storage
+db|lab5.(13).cnf
+db|lab5.(13).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+muxci.v
+2891397a2e1c1958ddb8675c2d812
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|muxCI:muxCI
+}
+# macro_sequence
+
+# end
+# entity
+adder
+# storage
+db|lab5.(14).cnf
+db|lab5.(14).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+adder.v
+24f48481f23d22cf1bd5489220b53d64
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|adder:snake
+}
+# macro_sequence
+
+# end
+# entity
+hex_to_seven_seg
+# storage
+db|lab5.(15).cnf
+db|lab5.(15).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+hex_to_seven_seg.v
+f2195230bc68c556e7ea12e517c33f4
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|alu:lulu|hex_to_seven_seg:upperBitsOfY
+cpu:aRealProcessorOMGZ|alu:lulu|hex_to_seven_seg:lowerBitsOfY
+hex_to_seven_seg:upperIOH
+hex_to_seven_seg:lowerIOH
+hex_to_seven_seg:upperIOG
+hex_to_seven_seg:lowerIOG
+hex_to_seven_seg:upperIOF
+hex_to_seven_seg:lowerIOF
+hex_to_seven_seg:upperIOE
+hex_to_seven_seg:lowerIOE
+}
+# macro_sequence
+
+# end
+# entity
+lab5iram2C
+# storage
+db|lab5.(16).cnf
+db|lab5.(16).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab5iram2c.v
+12a213fe6dfa6fc9d5afe035af91e637
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# macro_sequence
+
+# end
+# entity
+lab5dram
+# storage
+db|lab5.(17).cnf
+db|lab5.(17).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab5dram.v
+5d5bf15d965bfa3463122da79a503351
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lab5dram:memoriesPressedBetweenThePagesOfMyMind
+}
+# macro_sequence
+
+# end
+# entity
+var_clk
+# storage
+db|lab5.(18).cnf
+db|lab5.(18).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+var_clk.v
+455277a51e14d2be708d2e5bcd15c033
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+var_clk:clockGenerator
+}
+# macro_sequence
+
+# end
+# entity
+pclock
+# storage
+db|lab5.(19).cnf
+db|lab5.(19).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+var_clk.v
+455277a51e14d2be708d2e5bcd15c033
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+NCYCLES
+5
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+var_clk:clockGenerator|pclock:counter_10MHz
+}
+# macro_sequence
+
+# end
+# entity
+pclock
+# storage
+db|lab5.(20).cnf
+db|lab5.(20).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+var_clk.v
+455277a51e14d2be708d2e5bcd15c033
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+NCYCLES
+10
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+var_clk:clockGenerator|pclock:counter_1MHz
+var_clk:clockGenerator|pclock:counter_100kHz
+var_clk:clockGenerator|pclock:counter_10kHz
+var_clk:clockGenerator|pclock:counter_1kHz
+var_clk:clockGenerator|pclock:counter_100Hz
+var_clk:clockGenerator|pclock:counter_10Hz
+var_clk:clockGenerator|pclock:counter_1Hz
+}
+# macro_sequence
+
+# end
+# entity
+ProgramCounter
+# storage
+db|lab5.(2).cnf
+db|lab5.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+programcounter.v
+16e41685169f2badd3efb953fa07476
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+cpu:aRealProcessorOMGZ|ProgramCounter:pc
+}
+# macro_sequence
+
+# end
+# entity
+lab5iram2E
+# storage
+db|lab5.(21).cnf
+db|lab5.(21).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab5iram2e.v
+6e1d662a90317c616460219e73cfda63
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# macro_sequence
+
+# end
+# entity
+lab5
+# storage
+db|lab5.(0).cnf
+db|lab5.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab5.v
+211cfcfce793d6d63e3775729bb5b0cc
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+lab5iramHRM
+# storage
+db|lab5.(22).cnf
+db|lab5.(22).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab5iramhrm.v
+72c8d99587bdd7de54f495b465ade6f
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lab5iramHRM:leProgramToRun
+}
+# macro_sequence
+
+# end
+# complete
+

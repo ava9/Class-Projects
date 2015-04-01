@@ -1,0 +1,43 @@
+after mem[24], R3 is hundreds digit of heart rate
+after mem[26], R3 is tens + ones digits of heart rate
+
+R1 <= R3; // Save hundreds digit
+ADDI R3, R0, 2; // R3 <= 2;
+
+BEQ R1, R3, X // If hundreds digit is 2
+// Light up all the lights
+ADDI R1, R0, 255;
+store R1 into memory locations for IOC/IOD
+// display heart rate as done in iramHRM
+// Branch back to beginning of code
+
+X
+
+//Now we know that heart rate < 200
+
+LB   R1, 0(R2) // R1 <= hundreds digit of heart rate
+ADDI R3, R1, 100; // R3 <= 100;
+Y
+ADD R1, R1, R1; // R1 += R1;
+ADDI R3, R3, -1; // R3 -= 1;
+BNE R3, R0, Y; // Go to Y if R3 != 0
+
+// Now R1 is hundreds place of heart rate (100 or 0)
+
+LB R3, 1(R2) // Get combined 10s + 1s of display
+ANDI R3, R3, 8'b11110000; 
+SRL R3, 4; // Extract value of 10s place and put into R3
+// while R3 > 0, add 10 to R1 and subtract 10 from R3
+
+// Now R1 is value of heart rate ignoring the 1s
+
+ADDI R1, R1, -50; // Subtract 50
+// Light up 1 LED
+
+// Loop while R1 > 0 (refer to label Y)
+// Light up an LED
+
+// Read in combined 10s and 1s
+// Mask and shift to get value of 1s
+// Subtract 5
+// If GEQZ, add another LED

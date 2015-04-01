@@ -1,0 +1,350 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\xprt\Desktop\Cornell\Class Materials\ECE\ECE 2300\LabRepo\Lab 5\lab5\simulation\modelsim
+vadder
+IRMiQ0NH_aXUCL[I?gg`R72
+Vfgd7@BFnlAR^SnL:?YajO3
+Z1 dC:\Users\xprt\Desktop\Cornell\Class Materials\ECE\ECE 2300\LabRepo\Lab 5\lab5\simulation\modelsim
+Z2 w1397868851
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/adder.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/adder.v
+L0 1
+Z3 OV;L;6.6d;45
+r1
+31
+Z4 o-vlog01compat -work work -O0
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5} -O0
+!s100 RfEbWT8:MV?5C8:mEm1eC3
+!s85 0
+!s101 -O0
+valu
+I5E9IH=m=572GaQg]zT_nY3
+VQH`Ei?2SVQmnYb:hPi`mb0
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/alu.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/alu.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 k=`>Z2YjL5]SHWGC9mi6i3
+!s85 0
+!s101 -O0
+vcontrol
+Ig2I4]nhJS94W2nDj8f1QN0
+VoEf]7nd1eWYcdPhejX=GE3
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/control.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/control.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 LZWFYH]B>8cHg?bP8nUG:1
+!s85 0
+!s101 -O0
+vcpu
+IK8i:[i3^^YlJi01Ub>liO2
+VUoU;=bAOS3Z@_8nD_Y=8[3
+R1
+w1398896810
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/cpu.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/cpu.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 DD1o9aKBXJTOPC7H^A1n01
+!s85 0
+!s101 -O0
+vDecoder
+I;gE:_@:gYf4EgSUiSZc:d1
+Vo5_[24;cZU6_laSQL]<S20
+R1
+w1398896652
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/Decoder.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/Decoder.v
+L0 1
+R3
+r1
+31
+R4
+R5
+n@decoder
+!s100 G]a[>d@5@CIzW?=^J1KB<1
+!s85 0
+!s101 -O0
+vHaltLogic
+I6na_Jne?G2G0fWidcj;Yg0
+VAI:RQ=Vc79@RV]N57]jgY0
+R1
+w1398709587
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/HaltLogic.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/HaltLogic.v
+L0 1
+R3
+r1
+31
+R4
+R5
+n@halt@logic
+!s100 lNUE9FPIab3zaPClB`:gn0
+!s85 0
+!s101 -O0
+vhex_to_seven_seg
+I_FOkoQSH6dlbJIf?aEk>42
+VXZ^BGXSl`LiHCR?ZXf2>h1
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/hex_to_seven_seg.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/hex_to_seven_seg.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 QbFbTfKVB>2MD@@@a6;HV3
+!s85 0
+!s101 -O0
+vlab5
+I=RaRjTL37mF[f3e7h>b?n3
+VKP[S^L>Wi:H^2Sl@MA<<`0
+R1
+w1398897489
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 a8E54CgOzGkY74`WJ2<aj1
+!s85 0
+!s101 -O0
+vlab5_test
+!s100 Xb3P]UeR08J?GbIB<e8]81
+IO_AD_Ead300b=[IZl>KJV2
+V]Jm_2niz5TW3C:jnY]Yd@0
+R1
+w1398709391
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5_test.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5_test.v
+L0 20
+R3
+r1
+!s85 0
+31
+!s101 -O0
+R4
+R5
+vlab5dram
+IX?1;oo5TodjT<`CGa<LJR2
+VK=f;nnnn^cMl9Q^:iM=R;2
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5dram.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5dram.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 7dg[9bDkUlT1ijjLB_2Sm3
+!s85 0
+!s101 -O0
+vlab5iramHRM
+Io:AmzJOh3mViV56H>Wc<V2
+ViBH0@0IXYhQfdFO<9Q4:e2
+R1
+w1399324661
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5iramhrm.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/lab5iramhrm.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nlab5iram@h@r@m
+!s100 XSWf^lYkc4>Dmo;b9Q[gL1
+!s85 0
+!s101 -O0
+vlogical
+IIn0h:m;jAoURFVl<eJM`H2
+VHUU]Sm:9K=Y>bKCW0gB>k3
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/logical.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/logical.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 EfYU3i7B54OL3<3VGDlRP3
+!s85 0
+!s101 -O0
+vmuxB
+IaGi2nB76^XohMYbcC1bfe3
+VCLgck@:9SFCPnTg8@2nX:3
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/muxB.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/muxB.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nmux@b
+!s100 cB9IfC88oZBbQ[XM=Lb<Q1
+!s85 0
+!s101 -O0
+vmuxCI
+IYAd]>4`H4C9oTK@gZMF^P2
+V2<Me4HXiVRY[l<jLD8mH31
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/muxCI.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/muxCI.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nmux@c@i
+!s100 `DW``kikV3WS52hCHOB6n2
+!s85 0
+!s101 -O0
+vmuxO
+ID<;Gi1Hfcm:c867UkZPin1
+V0^z3KZ^>Sk1hM3bTAYgLi2
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/muxO.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/muxO.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nmux@o
+!s100 2HHff??66?1I?AaX<_<e71
+!s85 0
+!s101 -O0
+vpclock
+I0=SA:T_2@WRP^:oZEn^eg1
+VF29[g;IKDOo_@78g5a6O63
+R1
+R2
+Z6 8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/var_clk.v
+Z7 FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/var_clk.v
+L0 52
+R3
+r1
+31
+R4
+R5
+!s100 =X31?<J618nVaVnX6fK_62
+!s85 0
+!s101 -O0
+vProgramCounter
+IAi>WPM>UiE2S?R44:i;l:0
+V_30_z56Ae6TL<Ybf^m:k^3
+R1
+w1398897324
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/ProgramCounter.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/ProgramCounter.v
+L0 1
+R3
+r1
+31
+R4
+R5
+n@program@counter
+!s100 X?0JDdW9D`i3R6GAmITn31
+!s85 0
+!s101 -O0
+vRegFile
+Ic8=dOK4zPQcTi?UkVb:9U1
+VYJ^=e::TR?i=FFNA]c9`G1
+R1
+w1397875319
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/RegFile.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/RegFile.v
+L0 1
+R3
+r1
+31
+R4
+R5
+n@reg@file
+!s100 Y@Mfe:OSjJ`RUPVlmKH7b3
+!s85 0
+!s101 -O0
+vshifter
+I6]5JX;;OSoRbR=>=[H?hF1
+VZ]0aL:?1_Sz6;i?]AVe3U3
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/shifter.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/shifter.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 WkSPkY9ViKVl65o;oLfZh0
+!s85 0
+!s101 -O0
+vSignExtend
+IYVQfFg3804DJbTk2Y[o?V1
+V38lzDYjh7egYc>^6YVQLf1
+R1
+w1397874480
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/SignExtend.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/LabRepo/Lab 5/lab5/SignExtend.v
+L0 1
+R3
+r1
+31
+R4
+n@sign@extend
+R5
+!s100 Q0c@[ZmKA<g;AB^?@nL?Y0
+!s85 0
+!s101 -O0
+vvar_clk
+IGgGnGBZc82MzfiYBHl>aC1
+VPc=FIPXTW1;^PPe0GziE42
+R1
+R2
+R6
+R7
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 bPzNogF]kCRQ4ee1Tg<1z2
+!s85 0
+!s101 -O0

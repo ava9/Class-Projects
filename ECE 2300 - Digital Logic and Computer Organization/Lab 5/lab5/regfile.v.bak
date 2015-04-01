@@ -1,0 +1,43 @@
+module RegFile(CLK, RESET, SA, SB, LD, DR, D_IN, DataA, DataB);
+    input CLK;
+    input RESET;
+    
+    input [2:0] SA;
+    input [2:0] SB;
+    
+    input LD;
+    input [2:0] DR;
+    
+    input [7:0] D_in;
+    
+    output [7:0] DataA;
+    output [7:0] DataB;
+    
+    // 8 registers, each 8 bits long
+    reg [7:0] registers[7:0];
+    
+    // Every time the clock comes, check to see if a value needs to be loaded into a register
+    always @(posedge CLK) begin
+      // Check for reset
+      if (RESET) begin
+        registers[0] <= 8'b00000000;
+        registers[1] <= 8'b00000000;
+        registers[2] <= 8'b00000000;
+        registers[3] <= 8'b00000000;
+        registers[4] <= 8'b00000000;
+        registers[5] <= 8'b00000000;
+        registers[6] <= 8'b00000000;
+        registers[7] <= 8'b00000000;
+        
+        // If reset isn't asserted and load is, load a value in
+      end else if (LD) begin
+        registers[DR] <= D_in;
+      end
+      
+    end
+    
+    // Always assign proper registers to the output
+    assign DataA = registers[SA];
+    assign DataB = registers[SB];
+    
+endmodule

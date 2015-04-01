@@ -1,0 +1,14 @@
+module ProgramCounter(
+    input CLK,
+    input RESET,
+    
+    output [7:0] PC);
+  
+  reg [7:0] PC;
+  
+  always @(posedge CLK) begin
+    // If RESET is asserted, set counter to 0, otherwise add 2
+    PC <= RESET ? 8'b00000000 : PC + 8'b00000010;
+  end
+    
+endmodule
